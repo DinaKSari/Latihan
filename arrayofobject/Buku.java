@@ -11,7 +11,8 @@ public class Buku {
     }
 
     void infoBuku(){
-        System.out.printf("%-5s %-5s %-5d/n", judul, penulis, tahunTerbit);
+        System.out.printf("%-5s %-5s %-5d\n", judul, penulis, tahunTerbit);
+        System.out.println();
     }
 
 }
