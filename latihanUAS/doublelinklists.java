@@ -43,6 +43,7 @@ public class doublelinklists {
     public car kurang(){
         if(isEmpty()){
             System.out.println("antrian kosong!");
+            return null;
         }
         car temp = head.data;
         head = head.next;

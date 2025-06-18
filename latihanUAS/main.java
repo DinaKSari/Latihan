@@ -7,6 +7,7 @@ public class main {
         Scanner sc = new Scanner(System.in);
         System.out.println("Masukan maksimum kapasitas: ");
         int max = sc.nextInt();
+        sc.nextLine();
         doublelinklists antrian = new doublelinklists(max);
         int pilihan;
         do {
