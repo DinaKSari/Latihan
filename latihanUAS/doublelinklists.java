@@ -6,7 +6,6 @@ public class doublelinklists {
 
     public doublelinklists(int max) {
         this.max = max;
-        car car1[] = new car[max];
         this.head = this.tail = null;
     }
 
